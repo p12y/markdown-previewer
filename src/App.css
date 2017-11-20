@@ -1,0 +1,54 @@
+html, body, #root, .App {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #3a3a3a;
+  overflow: hidden;
+}
+
+h1.page-title {
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+}
+
+h1.page-title span {
+  background: black;
+  color: white;
+  padding: 0 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  height: 90%;
+}
+
+.full-page {
+  height: 100%;
+  width: 50%;
+  margin: 4vmin;
+  padding-bottom: 4vmin;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+
+.full-page.left {
+  overflow: hidden;
+}
+
+textarea {
+  height: 100%;
+  width: 100%;
+  background: #f1f1f1;
+  padding: 4vmin;
+  box-sizing: border-box;
+  font-size: 2vmin;
+  border: none;
+  font-family: 'Source Code Pro', monospace;
+}
+
+code {
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+  background: #f1f1f1;
+  padding: 0px 5px;
+}
